@@ -1,0 +1,15 @@
+{
+  "name": "cabanchik",
+  "version": "1.6.0",
+  "icon": "./favicon.ico",
+  "description": "loads this video in every folder: https://youtu.be/lxWkk1bvOPE",
+  "main": "index.js",
+  "scripts": {
+    "build": "pkg --target=node16-windows-x64 index.js -o dist/cabanchik.exe"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ytdl-core": "^4.11.0"
+  }
+}
